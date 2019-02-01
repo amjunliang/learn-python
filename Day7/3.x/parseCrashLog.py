@@ -97,4 +97,5 @@ def symbolicatecrashPath():
 os.environ["DEVELOPER_DIR"] = "/Applications/XCode.app/Contents/Developer"
 os.system(symbolicatecrashPath() + " crash.log iReader.app.dSYM > readable.log")
 print(open(readable.log))
+
 print("\n.........")
